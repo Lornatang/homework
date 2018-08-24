@@ -5,6 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 include_directories(reSize)
 
-add_executable(utils
-        reSize/haff.c
-        reSize/haff.h)
+add_executable()
