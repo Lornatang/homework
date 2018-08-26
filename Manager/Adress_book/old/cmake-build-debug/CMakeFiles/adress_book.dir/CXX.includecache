@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Program/adress-book/include/person.h
+iostream
+-
+vector
+-
+string
+-
+
+/Users/mac/Program/adress-book/src/main.cc
+../include/person.h
+/Users/mac/Program/adress-book/include/person.h
+
+/Users/mac/Program/adress-book/src/person.cc
+../include/person.h
+/Users/mac/Program/adress-book/include/person.h
+
