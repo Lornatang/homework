@@ -5,37 +5,32 @@
 #ifndef STUMAGER_CSTUDENT_H
 #define STUMAGER_CSTUDENT_H
 
-#include <string>
 #include <iostream>
+#include <string>
 using namespace std;
 
-class Student
-{
-    /* friend function */
-    friend ostream &operator << (ostream &os, Student &stu);
-    friend istream &operator >> (istream &is, Student &stu);
+class Student {
+  /* friend function */
+  friend ostream &operator<<(ostream &os, Student &stu);
+  friend istream &operator>>(istream &is, Student &stu);
 
 public:
+  Student();
+  ~Student();
 
-    Student();
-    ~Student();
+  int getId() const;
+  void setId(int val);
 
-    int getId() const;
-    void setId(int val);
+  string getName() const;
+  void setName(string val);
 
-    string getName() const;
-    void setName(string val);
-
-    int getAge() const;
-    void setAge(int val);
-
+  int getAge() const;
+  void setAge(int val);
 
 private:
-
-    int id;
-    string name;
-    int age;
-
+  int id;
+  string name;
+  int age;
 };
 
-#endif //STUMAGER_CSTUDENT_H
+#endif // STUMAGER_CSTUDENT_H

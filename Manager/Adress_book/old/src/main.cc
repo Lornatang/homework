@@ -5,9 +5,9 @@
 #include "../include/person.h"
 
 int main(int argc, char const *argv[]) {
-    person s;
-    s.interface();
-    s.choose();
+  person s;
+  s.interface();
+  s.choose();
 
-    return 0;
+  return 0;
 }
