@@ -1,8 +1,10 @@
-cmake_minimum_required(VERSION 3.10)
-project(utils C)
+cmake_minimum_required(VERSION 3.12)
+project(utils)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 
-include_directories(studentManager)
+include_directories(studentManager/include)
 
-add_executable(studentManager/info.cc)
+add_executable(utils
+        studentManager/include/info.h
+        studentManager/info.cc)
