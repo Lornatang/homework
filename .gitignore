@@ -52,5 +52,6 @@ Mkfile.old
 dkms.conf
 .idea/
 */cmake-build-debug/
-/student_old/.idea/
+/Manager/student_old/.idea/
 *.DS_Store
+/Manager/student_new/.idea/
