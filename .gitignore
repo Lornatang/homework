@@ -55,3 +55,4 @@ dkms.conf
 /Manager/student_old/.idea/
 *.DS_Store
 /Manager/student_new/.idea/
+.vscode/settings.json
