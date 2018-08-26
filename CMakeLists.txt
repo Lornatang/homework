@@ -3,6 +3,6 @@ project(utils C)
 
 set(CMAKE_C_STANDARD 11)
 
-include_directories(reSize)
+include_directories(studentManager)
 
-add_executable(utils reSize/resize.c)
+add_executable(studentManager/info.cc)
