@@ -7,7 +7,7 @@
 #include <string>
 #include <map>
 #include <sstream>
-#include "../include/Student.h"
+#include "../include/student.h"
 #include "../include/stuMager.h"
 
 using namespace std;

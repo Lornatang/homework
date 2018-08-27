@@ -2,8 +2,8 @@
 // Created by mac on 2018/8/26.
 //
 
-#include "../include/Student.h"
-#include "../include/View.h"
+#include "../include/student.h"
+#include "../include/view.h"
 #include "../include/stuMager.h"
 #include <iostream>
 #include <map>

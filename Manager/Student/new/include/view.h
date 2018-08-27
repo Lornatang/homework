@@ -5,7 +5,7 @@
 #ifndef STUMAGER_CMAINVIEW_H
 #define STUMAGER_CMAINVIEW_H
 
-#include "Student.h"
+#include "student.h"
 #include "stuMager.h"
 #include <iostream>
 #include <map>

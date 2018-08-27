@@ -3,11 +3,20 @@ project(Student-Manager)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(stuMager
+
+add_executable(Student-Manager
         include/stuMager.h
-        include/View.h
-        include/Student.h
-        src/Student.cc
-        src/stuMager.cc
+        include/view.h
+        include/student.h
+        lib/student.cc
+        lib/stuMager.cc
         src/main.cc
-        src/View.cc)
+        lib/view.cc)
+
+add_library(stumager SHARED lib/student.cc lib/stuMager.cc lib/view.cc )
+
+
+install(TARGETS Student-Manager stumager
+        RUNTIME DESTINATION ~/Desktop/bin
+        LIBRARY DESTINATION ~/Desktop/lib)
+

@@ -3,4 +3,6 @@ project(AddressBook_Manager)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(new src/addressBook.cc include/addressBook.hpp)
+add_executable(AddressBook_Manager src/addressBook.cc include/addressBook.hpp)
+
+install(TARGETS AddressBook_Manager RUNTIME DESTINATION ~/Desktop)

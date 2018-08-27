@@ -4,7 +4,7 @@
 // Created by mac on 2018/8/26.
 //
 
-#include "../include/View.h"
+#include "../include/view.h"
 using namespace std;
 
 View::View() {}

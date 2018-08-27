@@ -5,7 +5,7 @@
 #ifndef STUMAGER_CSTUDENTMAGER_H
 #define STUMAGER_CSTUDENTMAGER_H
 
-#include "Student.h"
+#include "student.h"
 #include <map>
 #include <string>
 
