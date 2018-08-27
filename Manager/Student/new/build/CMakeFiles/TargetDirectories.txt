@@ -1,8 +1,0 @@
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/install/local.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/install/strip.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/install.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/list_install_components.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/stumager.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/rebuild_cache.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/edit_cache.dir
-/Users/mac/Program/homework/Manager/Student/new/build/CMakeFiles/Student-Manager.dir
