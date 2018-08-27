@@ -17,6 +17,6 @@ add_library(stumager SHARED lib/student.cc lib/stuMager.cc lib/view.cc )
 
 
 install(TARGETS Student-Manager stumager
-        RUNTIME DESTINATION ~/Desktop/bin
-        LIBRARY DESTINATION ~/Desktop/lib)
+        RUNTIME DESTINATION /usr/local/bin
+        LIBRARY DESTINATION /usr/local/lib)
 

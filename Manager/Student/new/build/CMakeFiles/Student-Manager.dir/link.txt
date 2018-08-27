@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Student-Manager.dir/lib/student.cc.o CMakeFiles/Student-Manager.dir/lib/stuMager.cc.o CMakeFiles/Student-Manager.dir/src/main.cc.o CMakeFiles/Student-Manager.dir/lib/view.cc.o  -o Student-Manager 

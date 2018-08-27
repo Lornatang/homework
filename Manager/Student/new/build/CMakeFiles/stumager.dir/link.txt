@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libstumager.dylib -install_name @rpath/libstumager.dylib CMakeFiles/stumager.dir/lib/student.cc.o CMakeFiles/stumager.dir/lib/stuMager.cc.o CMakeFiles/stumager.dir/lib/view.cc.o 

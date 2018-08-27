@@ -1,0 +1,2 @@
+/usr/local/bin/Student-Manager
+/usr/local/lib/libstumager.dylib
